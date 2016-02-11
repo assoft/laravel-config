@@ -1,0 +1,28 @@
+{
+    "name": "webjektif/laravel-config",
+    "description": "Laravel Config Manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eray AYDIN",
+            "email": "eray@webjektif.com"
+        },
+        {
+            "name": "Tuva Yasin ERGUN",
+            "email": "tuva@webjektif.com"
+        },
+        {
+            "name": "Vedat Furkan ERKUL",
+            "email": "vedat@webjektif.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webjektif\\LaravelConfig\\": "src/"
+        }
+    }
+}
